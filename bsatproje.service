@@ -1,0 +1,9 @@
+[Unit]
+Description=My Service
+
+[Service]
+Type=simple
+ExecStart= /home/mertcan/bsatodev.sh
+
+[Install]
+WantedBy=multi-user.target
